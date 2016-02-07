@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Philosopher|Muli");
+@import url('https://fonts.googleapis.com/css?family=Philosopher|Muli');
 * {
 	padding: 0px;
 	margin: 0px;
@@ -6,60 +6,61 @@
 body {
 	background: #151906;
 	color: #cfeedf;
-	font-family: "Muli";
+	font-family: 'Muli', sans-serif;
 	font-size: 24px;
 }
+img {
+	display: block;
+	margin: auto;
+}
 h1, h3, h5 {
-	font-family: "Philosopher";
+	font-family: 'Philosopher', sans-serif;
+	text-align: center;
 }
 h1 {
 	font-size: 2.5em;
 	color: #cfeedf;
-	text-align: center;
-	padding: 20px;
+	padding: .25em;
 } 
-img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
 h3 {
-	text-align: center;
-	padding: 15px;
 	font-size: 1.75em;
 	color: #e04b24;
+	padding: .25em;
+}
+h5 {
+	font-size: 1.25em;
+	padding: .25em;
 }
 #slogan {
 	color:#cfeedf;
 }
 #boilerplate {
-	color: #cfeedf;
 	text-align: center;
+	margin: auto;
+	width: 30em;
+	color: #cfeedf;	
 }
 nav {
 	text-align: center;	
-	margin: 10px
+	margin:.75em auto;
 }
 nav a {
 	font-weight: bold;
 	text-decoration: none;
+	font-variant: small-caps;
+	letter-spacing: 2px;
 	color: #e04b24;
-	padding: 20px;
-}
-section {
-	height: 500px;
+	padding: .5em;
 }
 #read, #submit {
-	background: #cfeedf;
+	background: #fffff8;
 	color: #151906;
 }
-h5 {
-	font-size: 1.25em;
-	margin-left: 10px;
-	padding: 10px;
-}
 .teaser {
-	margin-left: 20px
+	text-align: center;
+	width: 30em;
+	padding-bottom: 1em;
+	margin: auto;
 }
 a {
 	color: inherit;

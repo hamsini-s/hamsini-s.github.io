@@ -4,10 +4,15 @@
 	margin: 0px;
 }
 body {
-	background: #151906;
-	color: #cfeedf;
+	color: #000;
 	font-family: 'Muli', sans-serif;
 	font-size: 24px;
+}
+
+header {
+	background: #ffed74;
+	width: 1200px;
+	margin: auto;
 }
 img {
 	display: block;
@@ -19,7 +24,7 @@ h1, h3, h5 {
 }
 h1 {
 	font-size: 2.5em;
-	color: #cfeedf;
+	color: #000;
 	padding: .25em;
 } 
 h3 {
@@ -27,20 +32,18 @@ h3 {
 	color: #e04b24;
 	padding: .25em;
 }
-h5 {
-	font-size: 1.25em;
-	padding: .25em;
-}
 #slogan {
-	color:#cfeedf;
+	color: #000;
 }
 #boilerplate {
 	text-align: center;
 	margin: auto;
-	width: 30em;
-	color: #cfeedf;	
+	width: 30em;	
 }
 nav {
+	background: #e8c66a;
+	width: 900px;
+	border: .25em white solid;
 	text-align: center;	
 	margin:.75em auto;
 }
@@ -52,11 +55,23 @@ nav a {
 	color: #e04b24;
 	padding: .5em;
 }
-#read, #submit {
-	background: #fff;
-	color: #151906;
+
+section {
+	background: #ffe2b8;
+	width: 1200px;
+	margin: auto;
 }
-div p {
+article {
+	background: #e89c6c;
+	width: 800px;
+	margin: 1em auto;
+	border: .25em white solid;
+}
+h5 {
+	font-size: 1.25em;
+	padding: .25em;
+}
+.teaser {
 	text-align: center;
 	width: 30em;
 	padding-bottom: 1em;
@@ -64,4 +79,20 @@ div p {
 }
 a {
 	color: inherit;
+}
+
+aside{
+	background: #ffc675;
+	width: 1200px;
+	margin: 1em auto;
+}
+ul {
+	list-style: none;
+	text-align: center;
+}
+
+footer {
+	background: #ff957e;
+	width: 1200px;
+	margin: 1em auto;
 }

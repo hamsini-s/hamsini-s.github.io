@@ -6,13 +6,16 @@
 body {
 	color: #000;
 	font-family: 'Muli', sans-serif;
-	font-size: 24px;
+	font-size: 20px;
+}
+
+#wrapper {
+	width: 1366px;
+	margin: auto;
 }
 
 header {
 	background: #ffed74;
-	width: 1200px;
-	margin: auto;
 }
 img {
 	display: block;
@@ -23,7 +26,7 @@ h1, h3, h5 {
 	text-align: center;
 }
 h1 {
-	font-size: 2.5em;
+	font-size: 3em;
 	color: #000;
 	padding: .25em;
 } 
@@ -36,18 +39,18 @@ h3 {
 	color: #000;
 }
 #boilerplate {
+	font-size: 1.25em;
 	text-align: center;
 	margin: auto;
 	width: 30em;	
 }
 nav {
 	background: #e8c66a;
-	width: 900px;
-	border: .25em white solid;
 	text-align: center;	
 	margin:.75em auto;
 }
 nav a {
+	font-size: 1.25em;
 	font-weight: bold;
 	text-decoration: none;
 	font-variant: small-caps;
@@ -58,23 +61,20 @@ nav a {
 
 section {
 	background: #ffe2b8;
-	width: 1200px;
-	margin: auto;
 }
 article {
 	background: #e89c6c;
-	width: 800px;
+	width: 25em;
+	padding: .5em .5em .75em .5em;
 	margin: 1em auto;
-	border: .25em white solid;
 }
 h5 {
-	font-size: 1.25em;
+	font-size: 1.5em;
 	padding: .25em;
 }
 .teaser {
-	text-align: center;
-	width: 30em;
-	padding-bottom: 1em;
+	width: 25em;
+	padding: .5em;
 	margin: auto;
 }
 a {
@@ -83,8 +83,12 @@ a {
 
 aside{
 	background: #ffc675;
-	width: 1200px;
+	width: 25em;
 	margin: 1em auto;
+	padding: .5em;
+}
+#instructions {
+	text-align: center;
 }
 ul {
 	list-style: none;
@@ -93,6 +97,5 @@ ul {
 
 footer {
 	background: #ff957e;
-	width: 1200px;
-	margin: 1em auto;
+	margin: 1em 0;
 }

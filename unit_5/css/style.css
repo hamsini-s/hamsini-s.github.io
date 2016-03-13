@@ -10,6 +10,7 @@ body {
 }
 
 #wrapper {
+	background: #000;
 	margin: auto;
 	width: 1280px;
 }
@@ -52,7 +53,7 @@ img {
 	margin: 1em 0 1em 4em;
 }
 h2 {
-	color: #000;
+	color: #fff;
 	font-size: 3em;
 	text-align: center;
 	width: 11em;

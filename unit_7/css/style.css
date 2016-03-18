@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Philosopher|Muli');
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+body{
+		color: #252839;
+	font-family: 'Muli', sans-serif;
+	font-size: 20px	;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+a:hover{
+	color: #e04b24;
+}
+
+header{
+	background: #252839;
+	border-bottom: 2px solid #ccc;
+	margin-bottom: 2em;
+}
+h1{
+	display: inline-block;
+	font-family: 'Philosopher', sans-serif;
+	font-weight: bold;
+	font-size: 3.5em;
+	color: #fff;
+	padding: 0 .5em;
+} 
+h2{
+	display: inline-block;
+	font-size: 1.75em;
+	color: #fff;
+	margin-bottom: .5em;
+}
+nav{
+	padding: 1.25em 1em; 
+	float: right;
+}
+nav a{
+	font-weight: bold;
+	font-size: 1.5em;
+	font-variant: small-caps;
+	letter-spacing: 2px;
+	color: #fff;
+	padding: 1em;
+}
+nav a:hover{
+	background: #fff;
+}
+
+h3, h4{
+	font-weight: bold;
+	width: 98%;
+	padding: 0 1%;	
+	margin-top: .75em;
+}
+h3{
+	font-size: 2em;
+}
+h4{
+	font-size: 1.25em;
+}
+p{
+	font-family: 'Philosopher';
+	font-size: 1.25em;
+	line-height: 1.25em;
+	margin: .5em 0;
+}
+
+.feature{
+	text-align: center;
+	width: 40%;
+	margin: 0 30%;
+}
+.feature img, .feature div{
+	display: block;
+	width: 50%;
+	max-width: 600px;
+}
+#feature1 img{
+	float: left;
+}
+#feature1 div{
+	float: right;
+}
+#feature2 img{
+	float: right;
+}
+#feature2 div{
+	float: left;
+}
+.feature p{
+width: 80%;
+padding:0 10%;
+}
+
+#stories {
+	width: 60%;
+	margin: 2em 20%;
+}
+#stories article{
+	width: 27%;
+	margin: 0 3.1666667%;
+	float: left;
+}
+#stories img{
+	width: 100%;
+}
+
+footer{
+	background: #e04b24;
+	color: #fff;
+	text-align: center;
+	padding: 1em;
+	margin: auto;
+	clear: both;
+}	

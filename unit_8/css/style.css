@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css?family=Philosopher|Muli');
+* {
+	padding: 0px;
+	margin: 0px;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+body {
+	background: #ccc;
+	color: #252839;
+	font-family: 'Muli', sans-serif;
+	font-size: 20px;
+}
+#wrapper {
+	background: #fff;
+	margin: auto;
+	max-width: 1600px;
+}
+
+header {
+	background: #252839;
+	margin-bottom: 2em;
+}
+h1 {
+	display: inline-block;
+	font-family: 'Philosopher', sans-serif;
+	font-weight: bold;
+	font-size: 3em;
+	color: #e04b24;
+	padding: .25em .5em;
+} 
+h2 {
+	display: inline-block;
+	font-size: 1.75em;
+	color: #fff;
+}
+h3, h4{
+	font-weight: bold;
+	padding: 0 .5em;	
+	margin-top: .75em;
+}
+h3{
+	font-size: 1.75em;
+}
+h4{
+	font-size: 1.25em;
+}
+p{
+	font-family: 'Philosopher';
+	font-size: 1.25em;
+	line-height: 1.25em;
+	margin: .5em;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+a:hover, a:active {
+	color: #e04b24;
+}
+hr {
+	color: #e04b24;
+	width: 50%;
+	margin: .5em auto;
+	border: 2px dotted #252839;
+}
+nav{
+	float: right;
+}
+nav a{
+	display: block;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.25em;
+	font-variant: small-caps;
+	text-align: center;
+	letter-spacing: 2px;
+	border-left: 1px solid #fff;
+	padding: 1.3em;
+	margin: 0;
+	float: left;
+}
+nav a:hover{
+	background: #e04b24;
+	color: #fff;
+}
+
+#f1i2, #f2i2 {
+	display: none;
+}
+.feature{
+	text-align: center;
+	width: 44%;
+	margin: 0 28%;
+}
+.feature img, .feature div{
+	display: block;
+	width: 50%;
+	min-width: 225px;
+	float: left;
+}
+
+#stories {
+	width: 80%;
+	margin: 2em 10%;
+}
+#stories article{
+	width: 29.3333%;
+	margin: 0 2%;
+	float: left;
+}
+#stories img{
+	width: 100%;
+}
+
+footer{
+	background: #e04b24;
+	color: #fff;
+	text-align: center;
+	padding: 1em;
+	margin: auto;
+	clear: both;
+}	
+
+@media only screen and (max-width: 1650px) {
+	body {
+		font-size: 18px;
+	}
+	#stories article {
+		height: 515px;
+	}
+}
+
+@media only screen and (max-width: 1350px) {
+	.feature {
+		width: 50%;
+		margin: 0 25%;
+	}
+	#stories article {
+		width: 44%;
+		height: 530px;
+		margin: 0 3%;
+	}
+}
+
+@media only screen and (max-width: 1100px) {
+	nav a {
+		padding: .75em;
+		outline: 1px solid #fff;
+		float: none;
+	}
+	.feature {
+		width: 60%;
+		margin: 0 20%;
+	}
+	#stories {
+		width: 90%;
+		margin: 1em 5%;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	h1 {
+		float: left;
+	}
+	h2 {
+		display: none;
+	}
+	nav a{
+		padding: 1.3em;
+		outline: none;
+		float: left;
+	}
+	.feature {
+		width: 70%;
+		margin: 0 15%;
+	}
+	#f1i1, #f2i1 {
+		display: none;
+	}
+	#f1i2, #f2i2 {
+		display: block;
+	}
+	.feature + .feature {
+		margin-top: 1.25em;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	h1 {
+		font-size: 4em;
+	}
+	nav a {
+		outline: 1px solid #fff;
+		padding: 1em;
+		margin: 0;
+		float: none;
+	}
+	.feature {
+		width: 84%;
+		padding: 1.5em 2%;
+		margin: auto;
+		outline: 5px solid #252839;
+	}
+	#stories article {
+		width: 84%;
+		max-width: 450px;
+		height: auto;
+		margin: auto;
+		float: none;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+	body {
+		font-size: 16px;
+	}
+	h1 {
+		background: #fff;
+		display: block;
+		text-align: center;
+		width: 100%;
+		padding: .25em 0;
+		float: none;
+	}
+	nav {
+		float: none;
+	}
+	nav a {
+		outline: none;
+		border-bottom: 1px solid #fff;
+	}
+	.feature img, .feature div {
+		width: 100%;
+		float: none;
+	}
+	.feature img {
+		max-width: 200px;
+		margin: auto;
+	}
+}
